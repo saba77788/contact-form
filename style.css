@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 1440px;
+  height: 1069px;
+  background: #f8f9fa;
+}
+
+h1 {
+  margin-top: 64px;
+  margin-left: 593px;
+  color: #283646;
+  font-family: Raleway;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 63.984px;
+}
+
+.inputi1 {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 104px;
+}
+
+.inputi1 > label {
+  color: #77808b;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-right: 16px;
+}
+
+.inputi1 > label > input {
+  display: block;
+  width: 400px;
+  height: 56px;
+  flex-shrink: 0;
+  border: 1px solid #76aeff;
+  background: #fff;
+  margin-top: 8px;
+}
+
+.textarea {
+  margin-left: 104px;
+  margin-top: 24px;
+}
+
+.textarea > label {
+  color: #77808b;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.textarea > label > textarea {
+  width: 1232px;
+  height: 120px;
+  flex-shrink: 0;
+  display: block;
+  border: 1px solid #76aeff;
+  background: #fff;
+  margin-top: 8px;
+}
+
+button {
+  display: inline-flex;
+  padding: 16px 48px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #3a86ff;
+  margin-top: 40px;
+  margin-left: 656px;
+}
+
+.ruka {
+  width: 1440px;
+  height: 480px;
+  margin-top: 64px;
+}
