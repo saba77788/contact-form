@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
   margin: 0px;
@@ -51,6 +51,7 @@ h1 {
   border: 1px solid #76aeff;
   background: #fff;
   margin-top: 8px;
+  padding: 0 0 0 16px;
 }
 
 .textarea {
@@ -74,6 +75,7 @@ h1 {
   border: 1px solid #76aeff;
   background: #fff;
   margin-top: 8px;
+  padding: 16px 0 0 16px;
 }
 
 button {
@@ -83,13 +85,90 @@ button {
   align-items: center;
   gap: 10px;
   border-radius: 8px;
+  border-color: #3a86ff;
   background: #3a86ff;
-  margin-top: 40px;
-  margin-left: 656px;
+  margin: 40px 0 0 656px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+::placeholder {
+  color: #a2a9b0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
 }
 
 .ruka {
   width: 1440px;
   height: 480px;
   margin-top: 64px;
+
+  position: relative;
+}
+
+.rukisdivi {
+  width: 584px;
+  height: 128px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+
+  position: absolute;
+  bottom: 40px;
+  right: 104px;
+  display: flex;
+}
+
+.rukis-h {
+  height: 128px;
+  width: 292px;
+}
+
+.rukis-h > h2 {
+  color: #77808b;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 33px 0 0 24px;
+}
+
+.rukis-h > h1 {
+  color: #283646;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.992px;
+  margin: 8px 0 0 24px;
+}
+
+.rukis-social {
+  height: 128px;
+  width: 292px;
+}
+
+.rukis-social > div {
+  display: flex;
+  margin: 24px 0 32px 0;
+}
+
+.wre {
+  background: #3a86ff;
+  width: 24px;
+  height: 24px;
+  border-radius: 50px;
+}
+
+.rukis-social > div > p {
+  color: #283646;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  margin: 0 37px 0 8px;
 }
